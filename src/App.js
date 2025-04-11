@@ -1,12 +1,11 @@
 import './App.css';
+import QRBatchGenerator from './QRCodeGenerator';
 import QRScanner from './QRScanner';
-import StudentQRCodeGenerator from './StudentQRCodeGenerator';
-
 function App() {
   return (
     <div className="App">
       <QRScanner />
-      <StudentQRCodeGenerator />
+      <QRBatchGenerator />
     </div>
   );
 }
